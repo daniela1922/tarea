@@ -153,3 +153,11 @@ table tr td p {
     border-radius: 5px;
     cursor: pointer;
 }
+
+footer{
+    padding: 2% 3%;
+    background-color:rgba(183, 44, 44, 0.2);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}

@@ -1,0 +1,155 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    padding:10px;
+}
+
+.empresa{
+    padding: 5%;
+    text-align: center;
+    background-image: url(nombre.png);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+}
+
+.empresa h1{
+    font-size: 70px;
+    color: rgb(4, 53, 4);
+}
+
+Nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+Nav ul a{
+    text-decoration: none;
+    padding: 20px 25px;
+    border-radius: 15%;
+    color: black;
+    font-weight: bold;
+    
+}
+
+Nav ul a:hover{
+    background: pink;
+   
+}
+
+.menu{
+    margin-top: -5%;
+    padding: 5px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.Bienvenida{
+    height: 550px;
+    background-color: rgba(183, 44, 44, 0.2);
+}
+
+.imagenes table{
+    border-collapse: collapse;
+}
+
+
+.img {
+    width: 250px;
+    height: auto; 
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.img:hover{
+    filter: drop-shadow(0.5px 0.5px 5px rgba(232, 253, 113,1));
+    transform: scale(1.2);
+}
+
+table tr td p {
+    font-size: 20px;
+}
+
+.cactus{
+    background-color: green;
+}
+
+.clasificacion{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.contenedor-items{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap:30px;
+    grid-row-gap: 30px;
+    width: 100%;
+    transition: .3s;
+    object-fit: contain;
+}
+
+ .contenedor-items .item{
+    max-width: 150px;
+    min-width: 150px;
+    margin: auto;
+    border: 2px inset pink;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+    background-color: white;
+
+    
+}
+ .contenedor-items .item .img-item{
+    width: 100%;
+    object-fit: contain;
+}
+.contenedor-items .item:hover{
+    box-shadow: 0 0 10px #666;
+    scale: 1.1;
+}
+ .contenedor-items .item .titulo-item{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+ .contenedor-items .item .precio-item{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.contenedor-items .item .boton-item{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background-color: black;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ .contenedor-items .item .boton-item:hover{
+    background-color: rgb(23, 189, 62);
+
+}
+
+.regresar{
+    text-align: center;
+}
+
+.regresar a button{
+    background-color: pink;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

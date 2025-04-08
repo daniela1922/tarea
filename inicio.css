@@ -1,0 +1,125 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    padding:10px;
+}
+
+.empresa{
+    padding: 5%;
+    text-align: center;
+    background-image: url(nombre.png);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+}
+
+.empresa h1{
+    font-size: 70px;
+    color: rgb(4, 53, 4);
+    text-transform: uppercase;
+}
+
+Nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+Nav ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    border-radius: 15%;
+    color: black;
+    font-weight: bold;
+    
+}
+
+Nav ul a:hover{
+    background: pink;
+   
+}
+
+.menu{
+    margin-top: -5%;
+    padding: 5px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.Bienvenida{
+    height: 550px;
+    background-color: rgba(183, 44, 44, 0.2);
+}
+
+.imagenes table{
+    border-collapse: collapse;
+}
+
+
+.img {
+    width: 350px;
+    margin: 0 10px;
+    height: auto; 
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.img:hover{
+    filter: drop-shadow(0.5px 0.5px 5px rgba(232, 253, 113,1));
+    transform: scale(1.2);
+}
+
+table tr td p {
+    font-size: 20px;
+    font-family: "Slabo 27px", serif;
+}
+
+.expandir{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Slabo 27px", serif;
+    padding: 10px 0;
+    cursor: pointer;
+    border-bottom: 1px inset gray;
+}
+
+.expandir:hover{
+    box-shadow: inset 0px 0px 20px rgba(18, 248, 76, 0.898);
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenedor img{
+    height: 500px; 
+    border-radius: 70%;
+}
+
+.contenedor .texto{
+    padding: 0 5%;
+    font-family: "Slabo 27px", serif;
+}
+
+.contenedor .texto h2{
+    font-size: 30px;
+}
+
+.contenedor .texto p{
+    font-size: 20px;
+}
+
+footer{
+    padding: 2% 3%;
+    background-color:rgba(183, 44, 44, 0.2);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
